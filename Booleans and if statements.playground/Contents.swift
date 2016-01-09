@@ -31,6 +31,7 @@ var boolean = true
 //2
 let bool = false
 
+//3
 let age = 20
 
 if age >= 20 {
@@ -39,7 +40,7 @@ if age >= 20 {
     print("You are a minor")
 }
 
-
+//4
 let naam = "yolo"
 
 if naam == "sem" || naam == "poop"{
