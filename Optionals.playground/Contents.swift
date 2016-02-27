@@ -9,6 +9,6 @@ print(Thenumber) //becomes an optional
 print(Thenumber!) //becomes an Int
 
 print(name) // becomes an optional
-print(name!) // becomes String
-
-
+if (name != nil){ //check to ommit erros
+    print(name!) // becomes String
+}
