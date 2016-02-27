@@ -31,6 +31,7 @@ func getLyric() -> String{
     let lyrics = /*swift is */ "never gonna let you down, give you up!"
     return lyrics;
 }
+print(getLyric())
 
 //2 
 func getData(name:String, theAge age:Int, school:String, woonplaats:String) -> String{
@@ -38,7 +39,7 @@ func getData(name:String, theAge age:Int, school:String, woonplaats:String) -> S
     return scentence
 }
 
-getData("Sem", theAge: 20, school: "Cibap", woonplaats: "Emmeloord")
+print(getData("Sem", theAge: 20, school: "Cibap", woonplaats: "Emmeloord"))
 
 //3
 func getSquare(what:Int) -> Int{
