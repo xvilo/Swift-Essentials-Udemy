@@ -31,3 +31,41 @@ func getLyric() -> String{
     let lyrics = /*swift is */ "never gonna let you down, give you up!"
     return lyrics;
 }
+
+//2 
+func getData(name:String, theAge age:Int, school:String, woonplaats:String) -> String{
+    let scentence = "\(name) is \(age) years old. He lives in \(woonplaats) and goes to school at \(school)"
+    return scentence
+}
+
+getData("Sem", theAge: 20, school: "Cibap", woonplaats: "Emmeloord")
+
+//3
+func getSquare(what:Int) -> Int{
+    return what * what
+}
+
+print(getSquare(10))
+
+//4
+func createLetterGrade(StudenName name:String, StudentGrade grade:Int) -> String{
+    var gradea:String
+    if(grade >= 90){
+        gradea = "a"
+    }else if(grade >= 80){
+        gradea = "b"
+    }else{
+        gradea = "c"
+    }
+    
+    return "\(name) got a \(gradea) on the test"
+}
+
+print(createLetterGrade(StudenName: "Sem", StudentGrade: 100))
+print(createLetterGrade(StudenName: "Sem", StudentGrade: 95))
+print(createLetterGrade(StudenName: "Sem", StudentGrade: 90))
+print(createLetterGrade(StudenName: "Sem", StudentGrade: 85))
+print(createLetterGrade(StudenName: "Sem", StudentGrade: 80))
+print(createLetterGrade(StudenName: "Sem", StudentGrade: 75))
+print(createLetterGrade(StudenName: "Sem", StudentGrade: 8))
+
