@@ -21,3 +21,30 @@ if let theName = name{
     print(name)
 }
 
+//Challenge
+
+//1
+let myAge:Int? = nil
+
+//2
+var myAgeConv = Int("123")
+
+if let theAge = myAgeConv {
+    print(theAge * theAge)
+}
+
+//3
+func thisPerson(name:String, age:Int) -> String?{
+    
+    if (age <= 0){
+        return nil
+    }else{
+         return "\(name) is \(age)"
+    }
+}
+
+print(thisPerson("David", age: 20))
+print(thisPerson("David", age: 1))
+print(thisPerson("David", age: 0))
+print(thisPerson("David", age: -10))
+
