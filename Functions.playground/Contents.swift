@@ -69,4 +69,3 @@ print(createLetterGrade(StudenName: "Sem", StudentGrade: 85))
 print(createLetterGrade(StudenName: "Sem", StudentGrade: 80))
 print(createLetterGrade(StudenName: "Sem", StudentGrade: 75))
 print(createLetterGrade(StudenName: "Sem", StudentGrade: 8))
-
