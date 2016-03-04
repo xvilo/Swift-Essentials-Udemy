@@ -2,13 +2,10 @@
 
 //declaring a class
 class Dog {
-    
-    //properties
+    //properties (or attributes)
     var name = ""
     var furColour = ""
     var age = 0
-    
-    
 }
 
 //using classes
@@ -24,3 +21,8 @@ dog2.furColour = "White"
 
 var dogs : [Dog] = [fido, dog2]
 
+var doggy = Dog()
+doggy.age
+doggy.name
+
+ 
