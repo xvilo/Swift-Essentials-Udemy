@@ -83,3 +83,62 @@ for dog in allDogs{
     print(dog.tellMeAboutIt())
 }
 
+
+//structs
+struct Dogs2{
+    var name = ""
+    let age = 0
+    var furColour = ""
+
+    func tellMeAboutIt() -> String {
+        return "This dogs name is \(name), he/she is \(age) years old and her/his fur color is \(furColour)."
+    }
+}
+
+//initialize class as object (same object, other instance)
+let otherDog2 = Dogs2()
+
+//otherDog2.name = "test" //gives error
+
+//challenge
+
+class macbookAir {
+    var size = 0
+    var ram = 0
+    var color = "light-grey"
+    var mouseinput = "trackpad"
+
+    func giveDetails() -> String{
+        return "The screen-size is \(size)''. It has \(ram)GB of RAM the color is \(color) and it also has a \(mouseinput)"
+    }
+}
+
+var mypc = macbookAir()
+mypc.size = 13
+mypc.ram = 8
+print(mypc.giveDetails())
+
+struct macbookAir2 {
+    var size = 0
+    var ram = 0
+    var color = "light-grey"
+    var mouseinput = "trackpad"
+    
+    func giveDetails() -> String{
+        return "The screen-size is \(size)''. It has \(ram)GB of RAM the color is \(color) and it also has a \(mouseinput)"
+    }
+}
+
+var mypc2 = macbookAir2()
+mypc2.size = 13
+mypc2.ram = 8
+mypc2.mouseinput = "regular mouse"
+print(mypc2.giveDetails())
+
+
+
+
+
+
+
+
