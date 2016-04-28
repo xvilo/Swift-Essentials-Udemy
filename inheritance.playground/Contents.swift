@@ -64,3 +64,23 @@ print("Desc: " + george.description())
 
 //Final
 //just type 'final' before a function if you want to 'protect' it against overriding. 
+
+class Room{
+    var color = 0;
+    var size = 0;
+    
+    final func generate_width() -> Int{
+        return size * 2
+    }
+}
+
+class Monitor : Room{
+    var resolution = 0
+    var hasHDMI = false
+    var hasDVI = false
+    var hasDP = false
+    
+    //override func generate_width() -> Int {
+    //    return resolution - super.generate_width()
+    //}
+}
