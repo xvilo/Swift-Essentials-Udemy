@@ -13,9 +13,20 @@ extension String {
     }
     
     func printIt(){
-        
+        print(self)
     }
 }
 
-String(string: "Hi", repeated: 20)
+String(string: "Hi ", repeated: 20)
 
+String(string: "Whoohoo", repeated: 50).printIt()
+
+extension Int {
+    mutating func doubleIt(){
+        self = self * 2
+    }
+}
+
+var age = 4
+age.doubleIt()
+age
